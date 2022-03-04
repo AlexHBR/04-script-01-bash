@@ -82,7 +82,7 @@ do
 echo $(date "+%F-%H-%M-%S") IP $i is available check $j>> log
 else
 echo $(date "+%F-%H-%M-%S") IP $i is NOT available check $j>> error
-break 
+exit 
     fi
   done
 done 
